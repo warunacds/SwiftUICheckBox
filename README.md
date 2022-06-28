@@ -20,6 +20,12 @@ it, simply add the following line to your Podfile:
 pod 'SwiftUICheckBox'
 ```
 
+## Example 
+
+```
+CheckBoxView(status: true, text: "Toogle or not to", textVisible: true)
+```
+
 ## Author
 
 Waruna, waruna@binarylogs.com
