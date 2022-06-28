@@ -22,7 +22,7 @@ pod 'SwiftUICheckBox'
 
 ## Example 
 
-```
+```swift
 CheckBoxView(status: true, text: "Toogle or not to", textVisible: true)
 ```
 
