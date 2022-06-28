@@ -26,6 +26,15 @@ pod 'SwiftUICheckBox'
 CheckBoxView(status: true, text: "Toogle or not to", textVisible: true)
 ```
 
+```swift
+struct ContentView: View {
+        
+    var body: some View {
+        CheckBoxView(status: true, text: "Toogle or not to", textVisible: true)
+    }
+}
+```
+
 ## Author
 
 Waruna, waruna@binarylogs.com
