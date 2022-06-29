@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftUICheckBox'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'SwiftUI CheckBox UI Controller for iOS'
 
 # This description is used to generate tags and improve search results.
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This library allows you to add checkbox to iOS app with SwiftUI. Should be able to use with traditioanl view controllers as well. But I have not tried it.'
 
   s.homepage         = 'https://github.com/Waruna/SwiftUICheckBox'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

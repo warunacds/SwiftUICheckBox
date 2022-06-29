@@ -37,7 +37,7 @@ struct ContentView: View {
 
 ## Author
 
-Waruna
+Waruna 
 
 ## License
 
