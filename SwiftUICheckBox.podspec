@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/warunacds/SwiftUICheckBox.git', :commit => s.version.to_s }
 
   s.ios.deployment_target = '14.0'
-
+  s.swift_versions = '5.0'
   s.source_files = 'SwiftUICheckBox/Classes/**/*'
   
   # s.resource_bundles = {
