@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'This library allows you to add checkbox to iOS app with SwiftUI. Should be able to use with traditioanl view controllers as well. But I have not tried it.'
 
-  s.homepage         = 'https://github.com/Waruna/SwiftUICheckBox'
+  s.homepage         = 'https://github.com/warunacds/SwiftUICheckBox'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'waruna' => 'waruna@binarylogs.com' }
