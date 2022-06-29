@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		83D51728CDCF9A3B4381B39B66558A33 /* SwiftUICheckBox */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3EF3627CBF2387418B0B19A8F2912AA1 /* Build configuration list for PBXAggregateTarget "SwiftUICheckBox" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftUICheckBox;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2EB7E4FE9F8C69B7E0F9C8D42C496E52 /* Pods-SwiftUICheckBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0F984E856BAAD2BEB8EFC73DC6F7E0 /* Pods-SwiftUICheckBox_Tests-dummy.m */; };
+		43280994303F7FE620C3A2A2F837DFDE /* Pods-SwiftUICheckBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3AB769747F4F3AE71503EE05D4EAEB1 /* Pods-SwiftUICheckBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A758658E6492DF6717459A9C6563FB7 /* Pods-SwiftUICheckBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 560E6C485121C14A51CDC5123161A2A2 /* Pods-SwiftUICheckBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60DBF1BDF0A896DDE4709FF8BCF7F456 /* Pods-SwiftUICheckBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6044C081BE656F0A877DAF44098C6C1 /* Pods-SwiftUICheckBox_Example-dummy.m */; };
+		B920C39DD77EEEDAC5BC47082CEFD122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E0A0292BCCB36F2F1506AA21ECA4C640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F71D41D03CAF02169E28F60CC2F814F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83903BF5235C91AE9DF32466FDC7CA50;
+			remoteInfo = "Pods-SwiftUICheckBox_Example";
+		};
+		E53ECB37BCB3265FF0EC3B6FE1524F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D51728CDCF9A3B4381B39B66558A33;
+			remoteInfo = SwiftUICheckBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		290F7D727A301F69402F39855CBB3C26 /* Pods-SwiftUICheckBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUICheckBox_Tests.modulemap"; sourceTree = "<group>"; };
+		29C6E42EC19428FAF2A8ADC4C3D0EE17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		305F26F5A576CD2CC044DA9AE1007A0E /* Pods-SwiftUICheckBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUICheckBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		321199D46AF1689454FE7A946F483A0B /* Pods-SwiftUICheckBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUICheckBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		560E6C485121C14A51CDC5123161A2A2 /* Pods-SwiftUICheckBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUICheckBox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		62B0F461E055B1E39D1357DDAAF6077F /* Pods-SwiftUICheckBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUICheckBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6712F580D629C04A0DB47B91174969F4 /* Pods-SwiftUICheckBox_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftUICheckBox_Example"; path = Pods_SwiftUICheckBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7433D932E94FC4733AF186EAA1A642AA /* Pods-SwiftUICheckBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUICheckBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		816AD9C2B831B10E1D1862ADAE88861B /* Pods-SwiftUICheckBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUICheckBox_Tests-Info.plist"; sourceTree = "<group>"; };
+		862CD0AE601ADAD2BB2A287212BF6F48 /* Pods-SwiftUICheckBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUICheckBox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		91737FE1EF66A921E509C319799CA7B8 /* SwiftUICheckBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftUICheckBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0F984E856BAAD2BEB8EFC73DC6F7E0 /* Pods-SwiftUICheckBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUICheckBox_Tests-dummy.m"; sourceTree = "<group>"; };
+		B70A9C210187AAE264F772A3ED641C84 /* Pods-SwiftUICheckBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUICheckBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B718BF09B88196F187259257EBA55978 /* Pods-SwiftUICheckBox_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftUICheckBox_Tests"; path = Pods_SwiftUICheckBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB0AE7DC5FE2BDFC125F9628DB99E47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C3AB769747F4F3AE71503EE05D4EAEB1 /* Pods-SwiftUICheckBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUICheckBox_Example-umbrella.h"; sourceTree = "<group>"; };
+		C7867347B3F8A1B8658B22023CA672D1 /* SwiftUICheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUICheckBox.release.xcconfig; sourceTree = "<group>"; };
+		CB2438418759DAD127BF51A42F23A2AE /* Pods-SwiftUICheckBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUICheckBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF7044F6E2448A8F30CC884C0BF32182 /* Pods-SwiftUICheckBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUICheckBox_Example-Info.plist"; sourceTree = "<group>"; };
+		E6044C081BE656F0A877DAF44098C6C1 /* Pods-SwiftUICheckBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUICheckBox_Example-dummy.m"; sourceTree = "<group>"; };
+		ECD59F1E83FF472BE777B914E1AC9FAD /* SwiftUICheckBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUICheckBox.debug.xcconfig; sourceTree = "<group>"; };
+		F56DBD0FAE20400094E4464550E489CC /* Pods-SwiftUICheckBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUICheckBox_Example.modulemap"; sourceTree = "<group>"; };
+		F588771B7974420A752848B597406C02 /* Pods-SwiftUICheckBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUICheckBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E3EB01B0E7D72C6C09D254EB4E7B433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B920C39DD77EEEDAC5BC47082CEFD122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8851F222B3C439A1B4E9BB6A73E2F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A0292BCCB36F2F1506AA21ECA4C640 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24CA5007D776EBD97D90D119027E5F95 /* SwiftUICheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				2A5EDC3FB0B3E0CB543CA807F1B88321 /* Pod */,
+				5C86A95214593E510E733FC90B106136 /* Support Files */,
+			);
+			name = SwiftUICheckBox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2A5EDC3FB0B3E0CB543CA807F1B88321 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				29C6E42EC19428FAF2A8ADC4C3D0EE17 /* LICENSE */,
+				BAB0AE7DC5FE2BDFC125F9628DB99E47 /* README.md */,
+				91737FE1EF66A921E509C319799CA7B8 /* SwiftUICheckBox.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4A7794E523D6F1786E6EB96F4A053023 /* Pods-SwiftUICheckBox_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				290F7D727A301F69402F39855CBB3C26 /* Pods-SwiftUICheckBox_Tests.modulemap */,
+				7433D932E94FC4733AF186EAA1A642AA /* Pods-SwiftUICheckBox_Tests-acknowledgements.markdown */,
+				CB2438418759DAD127BF51A42F23A2AE /* Pods-SwiftUICheckBox_Tests-acknowledgements.plist */,
+				9F0F984E856BAAD2BEB8EFC73DC6F7E0 /* Pods-SwiftUICheckBox_Tests-dummy.m */,
+				816AD9C2B831B10E1D1862ADAE88861B /* Pods-SwiftUICheckBox_Tests-Info.plist */,
+				560E6C485121C14A51CDC5123161A2A2 /* Pods-SwiftUICheckBox_Tests-umbrella.h */,
+				62B0F461E055B1E39D1357DDAAF6077F /* Pods-SwiftUICheckBox_Tests.debug.xcconfig */,
+				B70A9C210187AAE264F772A3ED641C84 /* Pods-SwiftUICheckBox_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftUICheckBox_Tests";
+			path = "Target Support Files/Pods-SwiftUICheckBox_Tests";
+			sourceTree = "<group>";
+		};
+		528B17B1F8187E4CE8BE7367CBFFFC30 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E65BF8678EB0D7C7481C3D33DB9F621 /* Pods-SwiftUICheckBox_Example */,
+				4A7794E523D6F1786E6EB96F4A053023 /* Pods-SwiftUICheckBox_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C86A95214593E510E733FC90B106136 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD59F1E83FF472BE777B914E1AC9FAD /* SwiftUICheckBox.debug.xcconfig */,
+				C7867347B3F8A1B8658B22023CA672D1 /* SwiftUICheckBox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftUICheckBox";
+			sourceTree = "<group>";
+		};
+		5E65BF8678EB0D7C7481C3D33DB9F621 /* Pods-SwiftUICheckBox_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F56DBD0FAE20400094E4464550E489CC /* Pods-SwiftUICheckBox_Example.modulemap */,
+				305F26F5A576CD2CC044DA9AE1007A0E /* Pods-SwiftUICheckBox_Example-acknowledgements.markdown */,
+				321199D46AF1689454FE7A946F483A0B /* Pods-SwiftUICheckBox_Example-acknowledgements.plist */,
+				E6044C081BE656F0A877DAF44098C6C1 /* Pods-SwiftUICheckBox_Example-dummy.m */,
+				CF7044F6E2448A8F30CC884C0BF32182 /* Pods-SwiftUICheckBox_Example-Info.plist */,
+				C3AB769747F4F3AE71503EE05D4EAEB1 /* Pods-SwiftUICheckBox_Example-umbrella.h */,
+				F588771B7974420A752848B597406C02 /* Pods-SwiftUICheckBox_Example.debug.xcconfig */,
+				862CD0AE601ADAD2BB2A287212BF6F48 /* Pods-SwiftUICheckBox_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftUICheckBox_Example";
+			path = "Target Support Files/Pods-SwiftUICheckBox_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F2D02C8C6C609C684B0D37B2ED3AD907 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EAFE0665449DEDBE1C430C7C53F22463 /* Products */,
+				528B17B1F8187E4CE8BE7367CBFFFC30 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAFE0665449DEDBE1C430C7C53F22463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6712F580D629C04A0DB47B91174969F4 /* Pods-SwiftUICheckBox_Example */,
+				B718BF09B88196F187259257EBA55978 /* Pods-SwiftUICheckBox_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2D02C8C6C609C684B0D37B2ED3AD907 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24CA5007D776EBD97D90D119027E5F95 /* SwiftUICheckBox */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A92814B6A63DDAB232C608AD36D2D565 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A758658E6492DF6717459A9C6563FB7 /* Pods-SwiftUICheckBox_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E89A41CAF31FE30120D624A2CCE31A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43280994303F7FE620C3A2A2F837DFDE /* Pods-SwiftUICheckBox_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		210070D7A4BBA0923CA22243C88B1194 /* Pods-SwiftUICheckBox_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995CDFC7C6B55509EC54AA7A4A45285D /* Build configuration list for PBXNativeTarget "Pods-SwiftUICheckBox_Tests" */;
+			buildPhases = (
+				A92814B6A63DDAB232C608AD36D2D565 /* Headers */,
+				1D0128D9C13473351E36CF50FBFA7C5E /* Sources */,
+				D8851F222B3C439A1B4E9BB6A73E2F29 /* Frameworks */,
+				A7CE46FEAE12A7C9A9288946A848D0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48312C49FA2F7BC374ED1168101F9B10 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftUICheckBox_Tests";
+			productName = Pods_SwiftUICheckBox_Tests;
+			productReference = B718BF09B88196F187259257EBA55978 /* Pods-SwiftUICheckBox_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		83903BF5235C91AE9DF32466FDC7CA50 /* Pods-SwiftUICheckBox_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B7DB766FF29B548C8EA820BEBF7E721 /* Build configuration list for PBXNativeTarget "Pods-SwiftUICheckBox_Example" */;
+			buildPhases = (
+				E6E89A41CAF31FE30120D624A2CCE31A /* Headers */,
+				B27D4B2ADB416CC17EB48A5CBC7C8BEB /* Sources */,
+				1E3EB01B0E7D72C6C09D254EB4E7B433 /* Frameworks */,
+				80960F411BDDBA10AC629060929AA3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67AAFDD34F5AB4261F41AADCAD78A6A /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftUICheckBox_Example";
+			productName = Pods_SwiftUICheckBox_Example;
+			productReference = 6712F580D629C04A0DB47B91174969F4 /* Pods-SwiftUICheckBox_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EAFE0665449DEDBE1C430C7C53F22463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83903BF5235C91AE9DF32466FDC7CA50 /* Pods-SwiftUICheckBox_Example */,
+				210070D7A4BBA0923CA22243C88B1194 /* Pods-SwiftUICheckBox_Tests */,
+				83D51728CDCF9A3B4381B39B66558A33 /* SwiftUICheckBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80960F411BDDBA10AC629060929AA3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CE46FEAE12A7C9A9288946A848D0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D0128D9C13473351E36CF50FBFA7C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB7E4FE9F8C69B7E0F9C8D42C496E52 /* Pods-SwiftUICheckBox_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27D4B2ADB416CC17EB48A5CBC7C8BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DBF1BDF0A896DDE4709FF8BCF7F456 /* Pods-SwiftUICheckBox_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48312C49FA2F7BC374ED1168101F9B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftUICheckBox_Example";
+			target = 83903BF5235C91AE9DF32466FDC7CA50 /* Pods-SwiftUICheckBox_Example */;
+			targetProxy = 9F71D41D03CAF02169E28F60CC2F814F /* PBXContainerItemProxy */;
+		};
+		C67AAFDD34F5AB4261F41AADCAD78A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftUICheckBox;
+			target = 83D51728CDCF9A3B4381B39B66558A33 /* SwiftUICheckBox */;
+			targetProxy = E53ECB37BCB3265FF0EC3B6FE1524F3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26C1E98E332EFE78C0349813483C2AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7867347B3F8A1B8658B22023CA672D1 /* SwiftUICheckBox.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4E71AE419B392C985EE94F23CDE1B386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862CD0AE601ADAD2BB2A287212BF6F48 /* Pods-SwiftUICheckBox_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUICheckBox_Example/Pods-SwiftUICheckBox_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUICheckBox_Example/Pods-SwiftUICheckBox_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53A89E76B8D5C90A5C508E0214608449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B0F461E055B1E39D1357DDAAF6077F /* Pods-SwiftUICheckBox_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUICheckBox_Tests/Pods-SwiftUICheckBox_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUICheckBox_Tests/Pods-SwiftUICheckBox_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84885A8E434081F24D3F2F9D209CD986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70A9C210187AAE264F772A3ED641C84 /* Pods-SwiftUICheckBox_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUICheckBox_Tests/Pods-SwiftUICheckBox_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUICheckBox_Tests/Pods-SwiftUICheckBox_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		92D729C7062371E70F56900037C956E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD59F1E83FF472BE777B914E1AC9FAD /* SwiftUICheckBox.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A89E4DED8DEDF5F114B12B689AA0634F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F588771B7974420A752848B597406C02 /* Pods-SwiftUICheckBox_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUICheckBox_Example/Pods-SwiftUICheckBox_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUICheckBox_Example/Pods-SwiftUICheckBox_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF3627CBF2387418B0B19A8F2912AA1 /* Build configuration list for PBXAggregateTarget "SwiftUICheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D729C7062371E70F56900037C956E9 /* Debug */,
+				26C1E98E332EFE78C0349813483C2AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B7DB766FF29B548C8EA820BEBF7E721 /* Build configuration list for PBXNativeTarget "Pods-SwiftUICheckBox_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89E4DED8DEDF5F114B12B689AA0634F /* Debug */,
+				4E71AE419B392C985EE94F23CDE1B386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995CDFC7C6B55509EC54AA7A4A45285D /* Build configuration list for PBXNativeTarget "Pods-SwiftUICheckBox_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A89E76B8D5C90A5C508E0214608449 /* Debug */,
+				84885A8E434081F24D3F2F9D209CD986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

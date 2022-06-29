@@ -1,0 +1,16 @@
+PODS:
+  - SwiftUICheckBox (0.1.0)
+
+DEPENDENCIES:
+  - SwiftUICheckBox (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftUICheckBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftUICheckBox: 9799e9ec78850fba5d540bbd2968dee950e4f9c6
+
+PODFILE CHECKSUM: de26136be2607ebdddcfa1f556180072e8f07917
+
+COCOAPODS: 1.11.3

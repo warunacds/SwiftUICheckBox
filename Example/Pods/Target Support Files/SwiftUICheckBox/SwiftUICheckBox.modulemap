@@ -1,0 +1,6 @@
+framework module SwiftUICheckBox {
+  umbrella header "SwiftUICheckBox-umbrella.h"
+
+  export *
+  module * { export * }
+}
