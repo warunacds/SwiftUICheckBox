@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
         
     var body: some View {
-//        CheckBoxView(status: true, text: "Toogle or not to", textVisible: true)
+        CheckBoxView(status: true, text: "Toogle or not to", textVisible: true)
         Text("Example")
         
     }

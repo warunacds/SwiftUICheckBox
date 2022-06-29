@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftUICheckBox;
+			productName = SwiftUICheckBox;
 		};
 /* End PBXAggregateTarget section */
 
@@ -46,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		290F7D727A301F69402F39855CBB3C26 /* Pods-SwiftUICheckBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUICheckBox_Tests.modulemap"; sourceTree = "<group>"; };
-		29C6E42EC19428FAF2A8ADC4C3D0EE17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		29C6E42EC19428FAF2A8ADC4C3D0EE17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		305F26F5A576CD2CC044DA9AE1007A0E /* Pods-SwiftUICheckBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUICheckBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		321199D46AF1689454FE7A946F483A0B /* Pods-SwiftUICheckBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUICheckBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		560E6C485121C14A51CDC5123161A2A2 /* Pods-SwiftUICheckBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUICheckBox_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -56,12 +57,12 @@
 		7433D932E94FC4733AF186EAA1A642AA /* Pods-SwiftUICheckBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUICheckBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		816AD9C2B831B10E1D1862ADAE88861B /* Pods-SwiftUICheckBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUICheckBox_Tests-Info.plist"; sourceTree = "<group>"; };
 		862CD0AE601ADAD2BB2A287212BF6F48 /* Pods-SwiftUICheckBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUICheckBox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		91737FE1EF66A921E509C319799CA7B8 /* SwiftUICheckBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftUICheckBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91737FE1EF66A921E509C319799CA7B8 /* SwiftUICheckBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftUICheckBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0F984E856BAAD2BEB8EFC73DC6F7E0 /* Pods-SwiftUICheckBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUICheckBox_Tests-dummy.m"; sourceTree = "<group>"; };
 		B70A9C210187AAE264F772A3ED641C84 /* Pods-SwiftUICheckBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUICheckBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B718BF09B88196F187259257EBA55978 /* Pods-SwiftUICheckBox_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftUICheckBox_Tests"; path = Pods_SwiftUICheckBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAB0AE7DC5FE2BDFC125F9628DB99E47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BAB0AE7DC5FE2BDFC125F9628DB99E47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C3AB769747F4F3AE71503EE05D4EAEB1 /* Pods-SwiftUICheckBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUICheckBox_Example-umbrella.h"; sourceTree = "<group>"; };
 		C7867347B3F8A1B8658B22023CA672D1 /* SwiftUICheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUICheckBox.release.xcconfig; sourceTree = "<group>"; };
 		CB2438418759DAD127BF51A42F23A2AE /* Pods-SwiftUICheckBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUICheckBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -589,8 +590,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
